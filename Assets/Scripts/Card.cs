@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Card : ScriptableObject
 {
+    public int id;
     public string cardName;
     public CardType cardType;
     public CardState cardState;

@@ -6,11 +6,16 @@ using UnityEngine;
 public class Bow : Card
 {
     public Bow(){
-        this.cardName = "Bow";
-        this.cardType = CardType.Attack;
-        this.cardState = CardState.Table;
-        this.isCovered = false;
-        this.cost = 1;
-        this.cardDescription = "Deal 1 damage";
+        id = 100;
+        cardName = "Bow";
+        cardType = CardType.Attack;
+        cardState = CardState.Table;
+        isCovered = false;
+        cost = 1;
+        cardDescription = "Deal 1 damage";
+    }
+
+    public override void use(){
+        Debug.Log("Use Bow");
     }
 }
