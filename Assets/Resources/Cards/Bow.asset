@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2336e20ae794b7a4ab320af9a9d3fd04, type: 3}
   m_Name: Bow
   m_EditorClassIdentifier: 
+  id: 100
   cardName: Bow
   cardType: 0
-  cardState: 1
+  cardState: 0
   isCovered: 0
+  isHovered: 1
   cost: 1
   cardDescription: Deal 1 damage

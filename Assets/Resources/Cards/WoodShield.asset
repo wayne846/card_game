@@ -15,7 +15,8 @@ MonoBehaviour:
   id: 200
   cardName: Wood Shield
   cardType: 1
-  cardState: 1
+  cardState: 0
   isCovered: 0
+  isHovered: 1
   cost: 1
   cardDescription: Block 2 damage

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+/******************************
+放在卡牌物件上，用來顯示資訊到卡牌上的Text
+*******************************/
+
 public class CardDisplay : MonoBehaviour
 {
     public Card cardData;

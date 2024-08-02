@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/******************************
+繼承自Card，弓
+*******************************/
+
 [CreateAssetMenu(fileName = "New Card", menuName = "Card/Bow")]
 public class Bow : Card
 {
@@ -9,8 +13,9 @@ public class Bow : Card
         id = 100;
         cardName = "Bow";
         cardType = CardType.Attack;
-        cardState = CardState.Table;
+        cardState = CardState.Deck;
         isCovered = false;
+        isHovered = false;
         cost = 1;
         cardDescription = "Deal 1 damage";
     }
